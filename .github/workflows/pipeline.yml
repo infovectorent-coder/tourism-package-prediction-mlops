@@ -32,4 +32,4 @@ jobs:
           test -f data/raw/data.csv
 
       - name: Success message
-        run: echo "Pipeline structure verified successfully"
+        run: echo "Tourism MLOps pipeline completed successfully"
