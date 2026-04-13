@@ -1,4 +1,4 @@
-from src.train import train
+from train import train
 
 MIN_ACCURACY = 0.80
 MIN_F1 = 0.75
