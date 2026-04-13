@@ -1,4 +1,3 @@
-%%writefile .github/workflows/pipeline.yml
 name: Tourism Project Pipeline
 
 on:
@@ -134,4 +133,3 @@ api.upload_folder(
 )
 print('Deployment files uploaded successfully')
 "
-workflow_dispatch:
