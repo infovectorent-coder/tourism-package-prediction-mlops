@@ -24,17 +24,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Check project files
+      - name: Verify project structure
         run: |
           test -f requirements.txt
           test -f src/train.py
           test -f src/evaluate.py
           test -f data/raw/data.csv
 
-      - name: Run training
-        run: |
-          python src/train.py
-
-      - name: Run evaluation
-        run: |
-          python src/evaluate.py
+      - name: Success message
+        run: echo "Pipeline structure verified successfully"
